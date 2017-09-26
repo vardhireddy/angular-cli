@@ -17,12 +17,12 @@ export class UserComponent implements OnInit {
   posts: Post[];
 
   constructor(private postService: PostService) { 
-    this.name = "Krishna reddy";
-    this.email = "krishna.vardhireddy@gmail.com";
+    this.name = "Celeste D'Costa";
+    this.email = "celeste.dcosta@gmail.com";
     this.address = {
-      street: "3/4 voc street",
-      city: "chennai",
-      state: "tamilnadu"
+      street: "784 street",
+      city: "AB city",
+      state: "XY state"
     }
     this.hobbies = ["movies","coding","playing"];
     this.showHobbies = true;

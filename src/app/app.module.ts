@@ -6,13 +6,21 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
-import {AppRoutingModule} from './app-routing.module'
+import {AppRoutingModule} from './app-routing.module';
+import { ClassComponent } from './class/class.component';
+import { SubjectComponent } from './subject/subject.component';
+import { TopicComponent } from './topic/topic.component';
+import { NotesComponent } from './notes/notes.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    AboutComponent
+    AboutComponent,
+    ClassComponent,
+    SubjectComponent,
+    TopicComponent,
+    NotesComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule,AppRoutingModule
